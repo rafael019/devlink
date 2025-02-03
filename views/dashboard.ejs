@@ -1,0 +1,33 @@
+<div class="w-full max-w-6xl mx-auto px-2">
+    <div class="flex flex-row items-center justify-center mt-16 mb-6 gap-4">
+        <h1 class="text-4xl font-bold text-center">Painel DevLinks</h1>
+        <a href="/" class="bg-white text-black text-lg px-2 py-1 rounded">Home</a>
+    </div>
+    <button type="button" class="absolute top-4 right-4 bg-red-500 text-white rounded px-4 py-1 z-0"
+        hx-get="/logout">Sair</button>
+
+    <form class="flex flex-col max-w-2xl mx-auto gap-4" hx-post="/create-link" hx-swap="none" id="form-links">
+
+        <div class="w-full">
+            <label class="font-bold text-lg">Nome do link</label>
+            <input type="text" name="name" id="name" placeholder="Ex. Canal do Youtube"
+                class="w-full p-2 rounded text-black my-1">
+        </div>
+
+        <div class="w-full">
+            <label class="font-bold text-lg">Url do Link</label>
+            <input type="url" name="url" id="url" placeholder="Ex. http://youtube.com"
+                class="w-full p-2 rounded text-black  my-1">
+        </div>
+
+        <button class="bg-blue-500 w-full p-2 rouded mt-4 font-bold">
+            Cadastrar link
+        </button>
+
+    </form>
+
+    <h2 class="text-2xl font-bold text-center mt-12 mb-4">Meus Links</h2>
+    <div class="w-full max-w-2xl mx-auto">
+        <div id="list-links" hx-get="/dashboard/links" hx-trigger="load"></div>
+    </div>
+</div>

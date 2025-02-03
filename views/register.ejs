@@ -1,0 +1,19 @@
+<div class="flex flex-col items-center justify-center h-screen">
+    <form class="w-full flex flex-col p-2 gap-4 max-w-2xl" hx-post="/register" hx-swap="none">
+
+        <h1 class="text-4xl text-center mb-4 font-bold">Novo usuário</h1>
+
+        <input type="text" placeholder="Digite o seu username..." name="username"
+            class="w-full bg-white p-2 rounded text-black">
+
+        <input type="text" placeholder="Digite o nome completo..." name="name"
+            class="w-full bg-white p-2 rounded text-black">
+
+        <input type="email" placeholder="Digite o E-mail..." name="email"
+            class="w-full bg-white p-2 rounded text-black">
+
+        <input type="password" placeholder="******" name="password" class="w-full bg-white p-2 rounded text-black">
+        <button type="submit" class="w-full bg-blue-500 p-2 rounded text-white font-bold">Cadastrar</button>
+        <a href="/login" class="text-center">Já possui uma conta? Faça login</a>
+    </form>
+</div>
