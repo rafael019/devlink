@@ -21,27 +21,21 @@ Para tarefas mais simples eu acho mais fácil usar o HTMX, inclusive dentro do R
 
 1 - Clone o repositório para o seu computador e instale as dependencias do projeto usando o seguinte comando
 
-````
 ```
 npm install
 ```
-````
 
 2 - Abra a pasta devlink em um editor de código e no seu terminal dentro da pasta execute os seguintes comandos
 
-````
 ```
 npm run dev
 ```
-````
 
-e
+e para executar o tailwind:
 
-````
 ```
 npm run dev-css
 ```
-````
 
 3 - Acesse http://localhost:3333 para visualar a página home, o projeto tem as seguintes rotas
 
