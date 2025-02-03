@@ -1,13 +1,13 @@
 # Projeto Devliks
 
-# Descrição
+## Descrição
 
 Projeto bem simples criado no curso [HTMX Do zero ao profissional com projetos reais
 ](https://www.udemy.com/course/htmx-completo/), o projeto é um cline do linktree, confesso que quando ouvi falar em HTMX pela primeira vez fiquei bem curioso, consumir APIs, fazer requisições usando html puro. achei bem interessante, fazer algo sem dependender de Vue, Angular ou React.
 
 Para tarefas mais simples eu acho mais fácil usar o HTMX, inclusive dentro do Ruby on Rails eu estou em algumas coisas mais complexas
 
-# Tecnologias usadas no curso
+### Tecnologias usadas no curso
 
 - NodeJS
 - Express
@@ -17,7 +17,7 @@ Para tarefas mais simples eu acho mais fácil usar o HTMX, inclusive dentro do R
 - Sqlite
 - Sequelize
 
-# Como visualizar o projeto
+### Como visualizar o projeto
 
 1 - Clone o repositório para o seu computador e instale as dependencias do projeto usando o seguinte comando
 
